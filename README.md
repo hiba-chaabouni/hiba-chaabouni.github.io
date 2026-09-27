@@ -1,61 +1,90 @@
-# [Your Name] - Data Analysis Portfolio
 
-Welcome! This repository contains the complete template for a professional, one-page data analysis portfolio website, hosted for free on GitHub Pages.
+# Hiba Chaabouni | Business Analytics & Technology Portfolio
 
-## About This Portfolio Template
+Welcome to my portfolio! I'm a Business Analytics student at Tunis Business School, interested in how data and technology can help businesses make better decisions. This repository showcases my projects across business intelligence, data analytics, and technology-driven solutions.
 
-This portfolio is designed to demonstrate skills in:
-- Data visualization and storytelling
-- Data modeling and analysis
-- Creating interactive, professional dashboards
-- Transforming complex data into actionable insights
+I enjoy understanding the problem behind the numbers, connecting business needs with technical solutions, and building things that serve a practical purpose.
 
 ## 🚀 Projects
 
-This template is set up to showcase your best work. You can easily customize the project cards in the `index.html` file.
+### 1. MENA Business Intelligence — Solar Investment Analytics
+**Business Intelligence | Data Analytics | Power BI**
 
-### Project Title One
-*A brief description of your project, the tools used, and the key insights derived.*
+Built an ETL pipeline processing 165,896 rows of solar investment data across the MENA region, spanning nearly six years. Developed Power BI dashboards to explore investment trends and market performance.
 
-### Project Title Two
-*A brief description of your project, the tools used, and the key insights derived.*
+**Tools:** Python, Power BI, DAX, Data Visualization
 
-### Project Title Three
-*A brief description of your project, the tools used, and the key insights derived.*
+### 2. Veridian Capital — RWA Tokenization & Escrow Platform
+**Blockchain | FinTech | Real-World Asset Tokenization**
 
+Co-designed an institutional platform for compliant real-world asset tokenization with automated escrow, applying blockchain technology to investor-backed solar installations in underserved South African communities. Won 1st place among 13 teams at the University of Zurich's Deep Dive into Blockchain 2026.
 
-## 🛠️ Skills
+**Tools:** Solidity, Smart Contracts, Hedera, Blockchain
 
-Update the `index.html` file to reflect your personal technical skillset. The template is organized into key categories:
+[View Project on GitHub](https://github.com/sasssyboujee/veridian)
 
-- **Data Visualization**: Power BI, Tableau, Matplotlib, etc.
-- **Data Analysis**: SQL, Python (Pandas), R, Excel, etc.
-- **Data Modeling**: Power Query, DAX, Star Schema Design, etc.
-- **Tools**: List any other relevant tools like Power BI Service, specific cloud platforms, etc.
+### 3. Customer Shopping Behavior Analytics
+**Data Analytics | SQL | Business Intelligence**
 
-## 💡 How to Use This Template
+Exploring customer purchasing patterns through SQL-based analysis, answering business questions about product performance, customer segments, and purchasing behavior to support data-driven decisions.
 
-Creating your own portfolio from this template is a simple, four-step process.
+**Tools:** PostgreSQL, SQL, Python, Data Analysis
 
-### 1. Create a New Repository from this Template
-Click the green **"Use this template"** button at the top of this repository page, then select **"Create a new repository"**.
+### 4. Customer Feedback Platform — Indigo Company
+**Product Development | Business Analysis | KPI Design**
 
-### 2. Name Your Repository for GitHub Pages
-This is the most important step. To turn your portfolio into a live website, you **must** name your new repository in the following format:
-`your-username.github.io`
-*(Replace `your-username` with your actual GitHub username.)*
+Co-architected an end-to-end customer feedback platform, from requirements gathering and data modeling to KPI framework design and dashboards. Redesigned the feedback experience to reduce completion time by over 80%, with a pilot across five stores and leadership approval to scale across the 52-store network pending pilot results.
 
-### 3. Customize Your Portfolio
-Open the `index.html` file and begin personalizing it. The file contains helpful `<!--💡UPDATE: ... -->` comments to guide you on where to change:
-- Your name and title
-- Social media links
-- The "About Me" section
-- Your project titles, descriptions, and links
-- Your list of skills
+**Focus:** Product Development, Requirements Analysis, KPI Design, Dashboarding
 
-### 4. Add Your Files
-- Upload your profile photo and project preview images to the `assets/images/` folder.
-- Upload your CV (e.g., in PDF format) to the `assets/` folder.
-- Create your favicon and add it to the root folder.
+### 5. Web-Based Facial Authentication System
+**Software Development | Web Applications | Security**
 
-Once you commit your changes, your new portfolio website will be live at `https://your-username.github.io` within a few minutes!
+Developed a team-based web authentication system using facial recognition, structuring the access-control workflow within a secure web application.
+
+**Focus:** Facial Recognition, Web Development, Access Control
+
+---
+
+## 🛠️ Skills & Tools
+
+### Data Analytics & Business Intelligence
+- SQL, Python (Pandas, NumPy), R
+- Power BI, DAX, Excel, Dashboarding & Data Visualization
+- Predictive Modeling: Scikit-learn, XGBoost, LightGBM
+- KPI Design, Data Cleaning, ETL Pipelines
+
+### Business Analysis & Product
+- Requirements Gathering & BRD/FSD Documentation
+- User Research, Market Analysis & Feature Prioritization
+- Stakeholder Communication & Product Development
+
+### Programming & Technical Tools
+- Python, JavaScript, C
+- MySQL, PostgreSQL, MongoDB
+- Git, Postman, Temenos Transact (T24)
+- Blockchain & Smart Contracts
+
+---
+
+## 🎓 Education
+
+**Tunis Business School — University of Tunis**  
+Bachelor of Science in Business Administration  
+Major: Business Analytics | Minor: IT
+
+**University of Zurich — UZH Blockchain Center**  
+Deep Dive into Blockchain 2026 | Industry Scholarship Recipient
+
+---
+
+## 📫 Connect With Me
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/hiba-chaabouni-/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+  </a>
+  <a href="mailto:hibachaabouni01@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-green?style=for-the-badge&logo=gmail" alt="Email">
+  </a>
+</p>
