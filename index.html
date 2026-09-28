@@ -7,7 +7,6 @@
   <meta name="description" content="Hiba Chaabouni — Business Analytics and IT student connecting data, business strategy, and technology.">
   <title>Hiba Chaabouni | Business Analytics &amp; IT</title>
 
-  <!-- Put your favicon in the website root folder. -->
   <link rel="icon" type="image/png"
       href="favicon-32x32.png">
   <link rel="apple-touch-icon"
@@ -66,7 +65,7 @@
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </div>
-    <a class="nav-contact" href="mailto:hibachaabouni01@gmail.com">Let's connect <span aria-hidden="true">↗</span></a>
+    <a class="nav-contact" href="#contact">Let's connect <span aria-hidden="true">↗</span></a>
   </nav>
 
   <main>
@@ -182,13 +181,21 @@
         <h2>Let's make ideas <span>work.</span></h2>
         <p>Interested in collaborating or connecting around business analytics, product, and technology? I'd love to hear from you.</p>
         <div class="contact-actions">
-          <a class="button button-light" href="mailto:hibachaabouni01@gmail.com">Email me <span>↗</span></a>
-          <a class="button button-translucent" href="https://www.linkedin.com/in/hiba-chaabouni-/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span>↗</span></a>
-        </div>
+  <a class="button button-light" href="mailto:hibachaabouni01@gmail.com">Email me <span>↗</span></a>
+  <button class="button button-translucent" type="button" id="copyEmail">Copy email</button>
+  <a class="button button-translucent" href="https://www.linkedin.com/in/hiba-chaabouni-/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span>↗</span></a>
+</div>
       </div>
     </section>
   </main>
 
   <footer><span>© 2026 Hiba Chaabouni</span><a href="#top">Back to top ↑</a></footer>
 </body>
+<script>
+  document.getElementById('copyEmail').addEventListener('click', function () {
+    navigator.clipboard.writeText('hibachaabouni01@gmail.com');
+    this.textContent = 'Copied ✓';
+    setTimeout(() => this.textContent = 'Copy email', 2000);
+  });
+</script>
 </html>
