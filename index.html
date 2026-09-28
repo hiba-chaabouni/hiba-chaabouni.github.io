@@ -1,249 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f3f6fb">
+  <meta name="description" content="Hiba Chaabouni — Business Analytics and IT student connecting data, business strategy, and technology.">
+  <title>Hiba Chaabouni | Business Analytics &amp; IT</title>
 
-    <title>Hiba Chaabouni | Data Analysis Portfolio</title>
+  <!-- Put your favicon in the website root folder. -->
+  <link rel="icon" type="image/png" href="android-chrome-192x192.png">
+  <link rel="apple-touch-icon" href="android-chrome-192x192.png">
 
-    <link rel="icon" type="image/png" href="assets/images/android-chrome-192x192.png">
-    <link rel="apple-touch-icon" href="assets/images/android-chrome-192x192.png">
-
-    <!-- Google Fonts for Elegant Typography -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
-    <!-- Your Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Glacial Indifference is loaded locally when its font files are added to assets/fonts/. -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous" defer></script>
 </head>
 <body>
-
-<!-- HEADER SECTION -->
-<header>
-    <div class="container">
-        <h1>Hiba Chaabouni</h1>
-        <p>Business Analytics Student | Power BI Developer | Business Analytics Student</p>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/hiba-chaabouni-/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/hiba-chaabouni" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-            <a href="mailto:hibachaabouni01@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
-            <a href="assets/Hiba_Chaabouni_CV.pdf" download title="Download CV"><i class="fas fa-file-arrow-down"></i></a>
+  <header class="hero" id="top">
+    <div class="hero-topline">
+      <div class="contact-pill">
+        <a href="mailto:hibachaabouni01@gmail.com"><span aria-hidden="true">✉</span> hibachaabouni01@gmail.com</a>
+        <span class="pill-divider">|</span>
+        <a href="tel:+21655308204"><span aria-hidden="true">☎</span> +216 55 308 204</a>
+      </div>
+      <div class="hero-chart" aria-hidden="true">
+        <div class="chart-card chart-card-back"><span></span><span></span><span></span><i></i></div>
+        <div class="chart-card chart-card-front">
+          <div class="chart-head"><b></b><b></b><b></b></div>
+          <svg viewBox="0 0 190 78" role="img" aria-label="Decorative analytics line chart">
+            <path d="M5 64 C28 55, 35 60, 55 43 S85 47, 102 28 S135 39, 151 16 S176 20, 185 5" />
+          </svg>
         </div>
+      </div>
     </div>
-</header>
 
-<!-- NAVIGATION -->
-<nav>
-    <div class="container">
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </div>
-</nav>
-
-<!-- ABOUT SECTION -->
-<section id="about" class="section">
-    <div class="container">
-        <h2>About Me</h2>
-        <div class="about-content">
-            <!--💡 Replace with your own profile photo in assets/images/-->
-            <img src="assets/images/profile-placeholder.jpg" alt="Hiba Chaabouni" class="profile-photo">
-            <div class="about-text">
-                <p>Welcome to my portfolio! I'm a Business Analytics student at Tunis Business School, interested in how data and technology can help businesses make better decisions. This repository showcases my projects across business intelligence, data analytics, and technology-driven solutions.</p>
-                <p>I enjoy understanding the problem behind the numbers, connecting business needs with technical solutions, and building things that serve a practical purpose.</p>
-            </div>
+    <div class="hero-main">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="checkmark">✓</span> Passionate about Strategy &amp; Tech</p>
+        <span class="role-chip">Business Analytics &amp; IT Student</span>
+        <h1>Learning fast.<br><span>Thinking Smart.</span></h1>
+        <div class="hero-tags" aria-label="Areas of interest">
+          <span>Business &amp; Product</span>
+          <span>Tech-Savvy</span>
+          <span>Data-Oriented</span>
         </div>
+        <a class="hero-cta" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+      </div>
+      <div class="portrait-wrap">
+        <!-- Replace with a clear, high-resolution portrait file. -->
+        <img src="assets/images/profile.jpg" alt="Portrait of Hiba Chaabouni" class="portrait">
+        <span class="portrait-ring"></span>
+      </div>
     </div>
-</section>
+    <div class="hero-bottom-wave" aria-hidden="true"></div>
+  </header>
 
-<!-- PROJECTS SECTION -->
-<section id="projects" class="section">
-    <div class="container">
-        <h2>My Projects</h2>
-        <div class="projects-grid">
+  <nav class="site-nav" aria-label="Main navigation">
+    <a class="brand-mark" href="#top">HC<span>.</span></a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a class="nav-contact" href="mailto:hibachaabouni01@gmail.com">Let's connect <span aria-hidden="true">↗</span></a>
+  </nav>
 
-            <!-- Project 1: SunWise / Customer Shopping Behavior Analysis -->
-             <div class="project-card">
-                <!--💡 Add a preview image (e.g. a screenshot of the dashboard) to assets/images/-->
-                <img src="assets/images/customer-behavior-project.jpg" alt="Customer Shopping Behavior Analysis Preview">
-                <div class="project-card-content">
-                    <h3>Customer Shopping Behavior Analysis</h3>
-                    <p>An end-to-end BI project on retail purchase patterns: data cleaning and analysis in Python, queries in PostgreSQL, and an interactive Power BI dashboard.</p>
-                    <div class="project-buttons">
-                        <a href="https://github.com/hiba-chaabouni/Customer-Shopping-Behaviour-Analysis_BI" target="_blank" class="btn">Documentation</a>
-                        <a href="https://app.powerbi.com/view?r=eyJrIjoiNGI0MDVmYTctNjRhMi00MmQyLWIzODgtYWEyZTcxMDNhNzY5IiwidCI6ImRiZDY2NjRkLTRlYjktNDZlYi05OWQ4LTVjNDNiYTE1M2M2MSIsImMiOjl9" target="_blank" class="btn btn-secondary">View Dashboard</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 2: MENA Business Intelligence -->
-            <div class="project-card">
-                <img src="assets/images/project-placeholder-2.jpg" alt="MENA Business Intelligence Preview">
-                <div class="project-card-content">
-                    <h3>MENA Business Intelligence — Solar Investment Analytics</h3>
-                    <p>Built an ETL pipeline processing 165,896 rows of solar investment data across the MENA region, spanning nearly six years, with Power BI dashboards exploring investment trends and market performance.</p>
-                    <div class="project-buttons">
-                        <a href="[YOUR_GITHUB_PROJECT_URL]" target="_blank" class="btn">Documentation</a>
-                        <a href="[YOUR_LIVE_DASHBOARD_URL]" target="_blank" class="btn btn-secondary">View Dashboard</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 3: Veridian Capital -->
-            <div class="project-card">
-                <img src="assets/images/project-placeholder-3.jpg" alt="Veridian Capital Preview">
-                <div class="project-card-content">
-                    <h3>Veridian Capital — RWA Tokenization & Escrow Platform</h3>
-                    <p>Co-designed an institutional platform for compliant real-world asset tokenization with automated escrow, applying blockchain to investor-backed solar installations in underserved South African communities. Won 1st place among 13 teams at the University of Zurich's Deep Dive into Blockchain 2026.</p>
-                    <div class="project-buttons">
-                        <a href="https://github.com/sasssyboujee/veridian" target="_blank" class="btn">Documentation</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 4: Indigo Customer Feedback Platform -->
-            <div class="project-card">
-                <img src="assets/images/project-placeholder-4.jpg" alt="Indigo Customer Feedback Platform Preview">
-                <div class="project-card-content">
-                    <h3>Customer Feedback Platform — Indigo Company</h3>
-                    <p>Co-architected an end-to-end customer feedback platform, from requirements gathering and data modeling to KPI framework design and dashboards, redesigning the feedback experience to cut completion time by over 80% across a five-store pilot.</p>
-                    <div class="project-buttons">
-                        <a href="[YOUR_GITHUB_PROJECT_URL]" target="_blank" class="btn">Documentation</a>
-                        <a href="[YOUR_LIVE_DASHBOARD_URL]" target="_blank" class="btn btn-secondary">View Dashboard</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 5: Facial Authentication System -->
-            <div class="project-card">
-                <img src="assets/images/project-placeholder-5.jpg" alt="Web-Based Facial Authentication System Preview">
-                <div class="project-card-content">
-                    <h3>Web-Based Facial Authentication System</h3>
-                    <p>Developed a team-based web authentication system using facial recognition, structuring the access-control workflow within a secure web application.</p>
-                    <div class="project-buttons">
-                        <a href="[YOUR_GITHUB_PROJECT_URL]" target="_blank" class="btn">Documentation</a>
-                    </div>
-                </div>
-            </div>
-
+  <main>
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="section-kicker">A little about me</p>
+        <h2>Business thinking.<br><span>Technical curiosity.</span></h2>
+      </div>
+      <div class="about-copy">
+        <p>I'm a Business Analytics student at Tunis Business School, interested in how data and technology can help businesses make better decisions. I enjoy understanding the problem behind the numbers and connecting the dots between business needs, processes, and technical solutions.</p>
+        <p>My work spans business intelligence, data analytics, and product development, from building dashboards and KPI frameworks to translating business requirements into functional specifications and developing practical solutions. I'm particularly interested in the space where business and technology meet, and in making sure what gets built actually serves a purpose.</p>
+        <p>Beyond the technical side, I enjoy working across different perspectives, understanding how people approach problems, and bringing scattered ideas together into something people can actually use.</p>
+        <div class="about-links">
+          <a href="https://www.linkedin.com/in/hiba-chaabouni-/" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a>
+          <a href="https://github.com/hiba-chaabouni" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a>
+          <a href="assets/CV_Hiba_Chaabouni_LongVer.pdf" target="_blank" rel="noopener noreferrer">View CV <span>↗</span></a>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<!-- SKILLS SECTION -->
-<section id="skills" class="section">
-    <div class="container">
-        <h2>Technical Skillset</h2>
-        <div class="skills-table">
-
-            <!-- Column 1: Data Analytics & Business Intelligence -->
-            <div class="skill-column">
-                <div class="skill-header">
-                    <i class="fas fa-chart-pie"></i>
-                    <h3>Data Analytics & BI</h3>
-                </div>
-                <ul class="skill-list">
-                    <li>SQL, Python (Pandas, NumPy), R</li>
-                    <li>Power BI, DAX, Excel, Dashboarding</li>
-                    <li>Predictive Modeling: Scikit-learn, XGBoost, LightGBM</li>
-                    <li>KPI Design, Data Cleaning, ETL Pipelines</li>
-                </ul>
+    <section class="section projects-section" id="projects">
+      <div class="section-heading section-heading-row">
+        <div><p class="section-kicker">Selected work</p><h2>Projects &amp; <span>experiments.</span></h2></div>
+        <p class="heading-note">A mix of analytics, business problem-solving, and technology.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card project-card-wide">
+          <div class="project-visual solar-visual"><span class="visual-label">BUSINESS INTELLIGENCE</span><div class="mini-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="visual-caption">SUNWISE <b>↗</b></div></div>
+          <div class="project-content">
+            <p class="project-type">01 / BI &amp; Data Analytics</p>
+            <h3>MENA Solar Investment Analytics</h3>
+            <p>Built an ETL pipeline processing 165,896 rows of MENA solar investment data across nearly six years, then developed Power BI dashboards to explore investment trends and market performance.</p>
+            <div class="tag-list"><span>Power BI</span><span>DAX</span><span>ETL</span><span>Analytics</span></div>
+            <div class="project-actions">
+              <a class="button button-primary" href="https://github.com/ghadabenamira/IT300-BI-SunWise-Analytics" target="_blank" rel="noopener noreferrer">GitHub repository <span>↗</span></a>
+              <a class="button button-outline" href="https://app.powerbi.com/view?r=eyJrIjoiYjA3YjFlMTMtMGJjYS00MDNiLWE1Y2MtODhlMGY0NmY2MTYzIiwidCI6ImRiZDY2NjRkLTRlYjktNDZlYi05OWQ4LTVjNDNiYTE1M2M2MSIsImMiOjl9" target="_blank" rel="noopener noreferrer">Open dashboard <span>↗</span></a>
             </div>
+            <details class="dashboard-details"><summary>Explore the interactive Power BI report <span>＋</span></summary>
+              <div class="dashboard-frame"><iframe title="SunWise Analytics Dashboard" src="https://app.powerbi.com/view?r=eyJrIjoiYjA3YjFlMTMtMGJjYS00MDNiLWE1Y2MtODhlMGY0NmY2MTYzIiwidCI6ImRiZDY2NjRkLTRlYjktNDZlYi05OWQ4LTVjNDNiYTE1M2M2MSIsImMiOjl9" allowfullscreen="true" loading="lazy"></iframe></div>
+            </details>
+          </div>
+        </article>
 
-            <!-- Column 2: Business Analysis & Product -->
-            <div class="skill-column">
-                <div class="skill-header">
-                    <i class="fas fa-search-plus"></i>
-                    <h3>Business Analysis & Product</h3>
-                </div>
-                <ul class="skill-list">
-                    <li>Requirements Gathering & BRD/FSD Documentation</li>
-                    <li>User Research, Market Analysis & Feature Prioritization</li>
-                    <li>Stakeholder Communication & Product Development</li>
-                </ul>
+        <article class="project-card">
+          <div class="project-visual veridian-visual"><span class="visual-label">BLOCKCHAIN / RWA</span><div class="veridian-symbol">V<span>.</span></div><div class="visual-caption">VERIDIAN CAPITAL <b>↗</b></div></div>
+          <div class="project-content">
+            <p class="project-type">02 / UZH Deep Dive into Blockchain</p>
+            <h3>Veridian Capital</h3>
+            <p>An institutional platform concept for compliant real-world asset tokenization and automated escrow, developed during the University of Zurich's Deep Dive into Blockchain program. Awarded 1st place among 13 teams.</p>
+            <div class="tag-list"><span>Tokenization</span><span>Smart Contracts</span><span>Escrow</span></div>
+            <div class="project-actions"><a class="button button-primary" href="https://github.com/sasssyboujee/veridian" target="_blank" rel="noopener noreferrer">View on GitHub <span>↗</span></a></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual customer-visual"><span class="visual-label">CUSTOMER ANALYTICS</span><div class="customer-stat"><strong>01</strong><span>Customer<br>insights</span></div><div class="visual-caption">SHOPPING BEHAVIOR <b>↗</b></div></div>
+          <div class="project-content">
+            <p class="project-type">03 / SQL &amp; BI</p>
+            <h3>Customer Shopping Behavior</h3>
+            <p>Analyzing customer purchase patterns with SQL and Power BI, including category-level product rankings and customer behavior insights.</p>
+            <div class="tag-list"><span>SQL</span><span>PostgreSQL</span><span>Power BI</span></div>
+            <div class="project-actions">
+              <a class="button button-primary" href="https://github.com/hiba-chaabouni/Customer-Shopping-Behaviour-Analysis_BI" target="_blank" rel="noopener noreferrer">GitHub repository <span>↗</span></a>
+              <a class="button button-outline" href="https://app.powerbi.com/view?r=eyJrIjoiNGI0MDVmYTctNjRhMi00MmQyLWIzODgtYWEyZTcxMDNhNzY5IiwidCI6ImRiZDY2NjRkLTRlYjktNDZlYi05OWQ4LTVjNDNiYTE1M2M2MSIsImMiOjl9" target="_blank" rel="noopener noreferrer">Open dashboard <span>↗</span></a>
             </div>
+            <details class="dashboard-details"><summary>Explore the interactive Power BI report <span>＋</span></summary>
+              <div class="dashboard-frame"><iframe title="Customer Shopping Behavior Dashboard" src="https://app.powerbi.com/view?r=eyJrIjoiNGI0MDVmYTctNjRhMi00MmQyLWIzODgtYWEyZTcxMDNhNzY5IiwidCI6ImRiZDY2NjRkLTRlYjktNDZlYi05OWQ4LTVjNDNiYTE1M2M2MSIsImMiOjl9" allowfullscreen="true" loading="lazy"></iframe></div>
+            </details>
+          </div>
+        </article>
 
-            <!-- Column 3: Programming & Technical Tools -->
-            <div class="skill-column">
-                <div class="skill-header">
-                    <i class="fas fa-cogs"></i>
-                    <h3>Programming & Technical Tools</h3>
-                </div>
-                <ul class="skill-list">
-                    <li>Python, JavaScript, C</li>
-                    <li>MySQL, PostgreSQL, MongoDB</li>
-                    <li>Git, Postman, Temenos Transact (T24)</li>
-                    <li>Blockchain & Smart Contracts</li>
-                </ul>
-            </div>
+        <article class="project-card">
+          <div class="project-visual indigo-visual"><span class="visual-label">PRODUCT DEVELOPMENT</span><div class="feedback-bubbles"><span>Great experience!</span><span>★★★★★</span><span>Quick feedback</span></div><div class="visual-caption">INDIGO CX <b>↗</b></div></div>
+          <div class="project-content">
+            <p class="project-type">04 / Product &amp; Business Analysis</p>
+            <h3>Indigo Customer Feedback Platform</h3>
+            <p>Co-architected a customer feedback platform piloted across five stores, redesigned the feedback flow to cut completion time by over 80%, and presented the KPI dashboard to company leadership.</p>
+            <div class="tag-list"><span>Product Development</span><span>KPI Framework</span><span>User Experience</span></div>
+          </div>
+        </article>
 
+        <article class="project-card">
+          <div class="project-visual facial-visual"><span class="visual-label">WEB APPLICATION</span><div class="face-frame"><span></span></div><div class="visual-caption">FACIAL AUTHENTICATION <b>↗</b></div></div>
+          <div class="project-content">
+            <p class="project-type">05 / Software Project</p>
+            <h3>Web-Based Facial Authentication</h3>
+            <p>Developed a team-based web authentication system using facial recognition, structuring the access-control workflow within a secure web application.</p>
+            <div class="tag-list"><span>Python</span><span>Web Application</span><span>Authentication</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading"><p class="section-kicker">What I work with</p><h2>Skills &amp; <span>toolkit.</span></h2></div>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-number">01</span><h3>Analytics &amp; BI</h3><p>Power BI · DAX · SQL · PostgreSQL · Excel · ETL · Data Visualization</p></article>
+        <article class="skill-card"><span class="skill-number">02</span><h3>Programming &amp; Modeling</h3><p>Python · Pandas · NumPy · Scikit-learn · XGBoost · LightGBM · R · JavaScript · C</p></article>
+        <article class="skill-card"><span class="skill-number">03</span><h3>Business &amp; Technology</h3><p>Requirements Gathering · BRD/FSD · KPI Design · User Research · Market Analysis · Postman · Git · Temenos T24</p></article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-inner">
+        <p class="section-kicker">Have a project in mind?</p>
+        <h2>Let's make ideas <span>work.</span></h2>
+        <p>Interested in collaborating or connecting around business analytics, product, and technology? I'd love to hear from you.</p>
+        <div class="contact-actions">
+          <a class="button button-light" href="mailto:hibachaabouni01@gmail.com">Email me <span>↗</span></a>
+          <a class="button button-translucent" href="https://www.linkedin.com/in/hiba-chaabouni-/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span>↗</span></a>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
+  </main>
 
-<!-- EDUCATION SECTION -->
-<section id="education" class="section">
-    <div class="container">
-        <h2>Education</h2>
-        <div class="about-text">
-            <p><strong>Tunis Business School — University of Tunis</strong><br>
-            Bachelor of Science in Business Administration<br>
-            Major: Business Analytics | Minor: IT</p>
-            <p><strong>University of Zurich — UZH Blockchain Center</strong><br>
-            Deep Dive into Blockchain 2026 | Industry Scholarship Recipient</p>
-        </div>
-    </div>
-</section>
-
-<!-- CONTACT FORM SECTION -->
-<section id="contact" class="section">
-    <div class="container">
-        <h2>Send me a message</h2>
-
-        <form action="https://formsubmit.co/hibachaabouni01@gmail.com" method="POST" class="contact-form">
-            <p>Interested in collaborating or have questions about my work? I'd love to hear from you!</p>
-
-            <!-- Form Fields -->
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" placeholder="Your name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="Your email" required>
-            </div>
-            <div class="form-group">
-                <label for="subject">Subject</label>
-                <input type="text" name="subject" id="subject" placeholder="Subject" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" rows="6" placeholder="Your message" required></textarea>
-            </div>
-
-            <!-- Submit Button -->
-            <button type="submit" class="btn">Send Message</button>
-
-        </form>
-    </div>
-</section>
-
-<!-- FOOTER -->
-<footer>
-    <div class="container">
-        <p>&copy; 2026 Hiba Chaabouni. All rights reserved.</p>
-    </div>
-</footer>
-
-<script src="assets/js/main.js"></script>
-
+  <footer><span>© 2026 Hiba Chaabouni</span><a href="#top">Back to top ↑</a></footer>
 </body>
 </html>
